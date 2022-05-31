@@ -66,7 +66,7 @@ if mType == 1:
     mAmmount == mAmmount
 if mType == 2:
     mAmmount = (mAmmount / atmWieght)
-    
+
 # Ending
 # PV=nRT
 if pType == 4:
@@ -87,5 +87,5 @@ if mAmmount == 0:
 if tAmmount == 0:
     tAmmount = (pAmmount * vAmmount) / (rConstant * mAmmount)
     tFinal = "{:.3f}".format(tAmmount)
-    print("Your space is " + tFinal + " kelvin.")
+    print("Your temp is " + tFinal + " kelvin.")
 
